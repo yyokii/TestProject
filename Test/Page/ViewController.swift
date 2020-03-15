@@ -19,5 +19,9 @@ class ViewController: UIViewController {
         let vc = BarcodeGeneratorVC.viewController()
         self.present(vc, animated: true, completion: nil)
     }
+    @IBAction func tapScrollButton(_ sender: Any) {
+        let vc = ScrollContentViewController.viewController()
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
