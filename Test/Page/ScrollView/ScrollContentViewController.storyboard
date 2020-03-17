@@ -94,6 +94,7 @@
                         <viewLayoutGuide key="safeArea" id="h9a-IB-XH2"/>
                     </view>
                     <connections>
+                        <outlet property="baseStackView" destination="hUi-8a-RCC" id="KJb-7C-8Lu"/>
                         <outlet property="changeHeightTargetView" destination="GdQ-WW-xVa" id="iz0-58-Wnj"/>
                     </connections>
                 </viewController>
