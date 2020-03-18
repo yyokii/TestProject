@@ -11,6 +11,10 @@
 		F5254AD7241E0F1500EC2BC0 /* ScrollContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5254AD6241E0F1500EC2BC0 /* ScrollContentViewController.storyboard */; };
 		F5254ADB241FDFDE00EC2BC0 /* AdditionalInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5254AD8241FDFDE00EC2BC0 /* AdditionalInfoView.xib */; };
 		F5254ADD241FDFDE00EC2BC0 /* AdditionalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5254ADA241FDFDE00EC2BC0 /* AdditionalInfoView.swift */; };
+		F5254AE02422933700EC2BC0 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5254ADF2422933700EC2BC0 /* SimpleViewController.swift */; };
+		F5254AE22422934200EC2BC0 /* Simple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5254AE12422934200EC2BC0 /* Simple.storyboard */; };
+		F5254AE42422940A00EC2BC0 /* SimpleSecond.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5254AE32422940A00EC2BC0 /* SimpleSecond.storyboard */; };
+		F5254AE62422941800EC2BC0 /* SimpleSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5254AE52422941800EC2BC0 /* SimpleSecondViewController.swift */; };
 		F5F468F923B86CD9005B9C65 /* BarcodeGenarator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F468F823B86CD9005B9C65 /* BarcodeGenarator.swift */; };
 		F5F8399D23B851E500B1195D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8399C23B851E500B1195D /* AppDelegate.swift */; };
 		F5F8399F23B851E500B1195D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8399E23B851E500B1195D /* ViewController.swift */; };
@@ -26,6 +30,10 @@
 		F5254AD6241E0F1500EC2BC0 /* ScrollContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollContentViewController.storyboard; sourceTree = "<group>"; };
 		F5254AD8241FDFDE00EC2BC0 /* AdditionalInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdditionalInfoView.xib; sourceTree = "<group>"; };
 		F5254ADA241FDFDE00EC2BC0 /* AdditionalInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalInfoView.swift; sourceTree = "<group>"; };
+		F5254ADF2422933700EC2BC0 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		F5254AE12422934200EC2BC0 /* Simple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Simple.storyboard; sourceTree = "<group>"; };
+		F5254AE32422940A00EC2BC0 /* SimpleSecond.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleSecond.storyboard; sourceTree = "<group>"; };
+		F5254AE52422941800EC2BC0 /* SimpleSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSecondViewController.swift; sourceTree = "<group>"; };
 		F5F468F823B86CD9005B9C65 /* BarcodeGenarator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeGenarator.swift; sourceTree = "<group>"; };
 		F5F8399923B851E500B1195D /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F8399C23B851E500B1195D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +66,17 @@
 				F5254AD6241E0F1500EC2BC0 /* ScrollContentViewController.storyboard */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		F5254ADE242292EF00EC2BC0 /* SimpleView */ = {
+			isa = PBXGroup;
+			children = (
+				F5254AE12422934200EC2BC0 /* Simple.storyboard */,
+				F5254ADF2422933700EC2BC0 /* SimpleViewController.swift */,
+				F5254AE32422940A00EC2BC0 /* SimpleSecond.storyboard */,
+				F5254AE52422941800EC2BC0 /* SimpleSecondViewController.swift */,
+			);
+			path = SimpleView;
 			sourceTree = "<group>";
 		};
 		F5F468F723B86CAC005B9C65 /* Util */ = {
@@ -100,6 +119,7 @@
 		F5F839AE23B8525800B1195D /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				F5254ADE242292EF00EC2BC0 /* SimpleView */,
 				F5254AD3241E0EAA00EC2BC0 /* ScrollView */,
 				F5F839AF23B852D200B1195D /* BarcodeGenerator */,
 				F5F839A023B851E500B1195D /* Main.storyboard */,
@@ -177,7 +197,9 @@
 			files = (
 				F5F839A723B851E700B1195D /* LaunchScreen.storyboard in Resources */,
 				F5F839B123B852EF00B1195D /* BarcodeGenerator.storyboard in Resources */,
+				F5254AE22422934200EC2BC0 /* Simple.storyboard in Resources */,
 				F5F839A423B851E700B1195D /* Assets.xcassets in Resources */,
+				F5254AE42422940A00EC2BC0 /* SimpleSecond.storyboard in Resources */,
 				F5F839A223B851E500B1195D /* Main.storyboard in Resources */,
 				F5254AD7241E0F1500EC2BC0 /* ScrollContentViewController.storyboard in Resources */,
 				F5254ADB241FDFDE00EC2BC0 /* AdditionalInfoView.xib in Resources */,
@@ -191,11 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5254AE62422941800EC2BC0 /* SimpleSecondViewController.swift in Sources */,
 				F5254ADD241FDFDE00EC2BC0 /* AdditionalInfoView.swift in Sources */,
 				F5F468F923B86CD9005B9C65 /* BarcodeGenarator.swift in Sources */,
 				F5F839B323B8531F00B1195D /* BarcodeGeneratorVC.swift in Sources */,
 				F5254AD5241E0F0700EC2BC0 /* ScrollContentViewController.swift in Sources */,
 				F5F8399F23B851E500B1195D /* ViewController.swift in Sources */,
+				F5254AE02422933700EC2BC0 /* SimpleViewController.swift in Sources */,
 				F5F8399D23B851E500B1195D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

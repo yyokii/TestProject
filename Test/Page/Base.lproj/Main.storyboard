@@ -30,11 +30,21 @@
                                     <action selector="tapScrollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nki-hx-Uwu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAI-3i-dlG">
+                                <rect key="frame" x="40" y="224" width="108" height="30"/>
+                                <state key="normal" title="ナビゲーション"/>
+                                <connections>
+                                    <action selector="tapNavigationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nc3-tA-arS"/>
+                                    <action selector="tapScrollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ovt-E6-lNQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="AAI-3i-dlG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="17M-kb-UkQ"/>
                             <constraint firstItem="1vM-0r-0OU" firstAttribute="top" secondItem="ApA-6v-cXD" secondAttribute="bottom" constant="40" id="CIG-PF-5u3"/>
                             <constraint firstItem="1vM-0r-0OU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="YN6-uT-l5B"/>
+                            <constraint firstItem="AAI-3i-dlG" firstAttribute="top" secondItem="1vM-0r-0OU" secondAttribute="bottom" constant="40" id="eql-i3-4Dc"/>
                             <constraint firstItem="ApA-6v-cXD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gRp-3H-D1Z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1vM-0r-0OU" secondAttribute="trailing" symbolic="YES" id="j1o-4x-Y2S"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ApA-6v-cXD" secondAttribute="trailing" symbolic="YES" id="j3D-3x-SOU"/>

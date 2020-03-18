@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GDu-o9-5Ll">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Simple Second View Controller-->
+        <scene sceneID="8fe-r3-Z2r">
+            <objects>
+                <viewController id="GDu-o9-5Ll" customClass="SimpleSecondViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hkR-zO-1JR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="simple second" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbi-7L-yhK">
+                                <rect key="frame" x="152" y="437.5" width="110.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EB9-Fs-MZ2">
+                                <rect key="frame" x="16" y="468.5" width="382" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="GDu-o9-5Ll" eventType="touchUpInside" id="8iK-Cr-FBA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="EB9-Fs-MZ2" firstAttribute="leading" secondItem="5Pa-1F-DUK" secondAttribute="leading" constant="16" id="4lM-XN-bPM"/>
+                            <constraint firstItem="5Pa-1F-DUK" firstAttribute="trailing" secondItem="EB9-Fs-MZ2" secondAttribute="trailing" constant="16" id="Dd8-VR-ijX"/>
+                            <constraint firstItem="Fbi-7L-yhK" firstAttribute="centerY" secondItem="hkR-zO-1JR" secondAttribute="centerY" id="EcI-OM-g99"/>
+                            <constraint firstItem="EB9-Fs-MZ2" firstAttribute="top" secondItem="Fbi-7L-yhK" secondAttribute="bottom" constant="10" id="oEK-Lr-KUW"/>
+                            <constraint firstItem="Fbi-7L-yhK" firstAttribute="centerX" secondItem="hkR-zO-1JR" secondAttribute="centerX" id="vW5-gT-si6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Pa-1F-DUK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3L5-Ta-Lc0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-35" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
