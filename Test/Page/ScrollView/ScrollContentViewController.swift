@@ -34,31 +34,9 @@ class ScrollContentViewController: UIViewController {
     @IBAction func tapChangeHeightButton(_ sender: Any) {
         
         insertViewToStackView()
-        
-        //        let w = Int(changeHeightTargetView.frame.width)
-        //
-        //        let label = UILabel(frame: CGRect(x: 0, y: labelHeight * labelCount, width: w, height: labelHeight))
-        //        label.text = "test: \(labelCount)"
-        //
-        //        let currentHeight = changeHeightTargetView.frame.height
-        //        heightAnchor.constant = currentHeight + 50
-        //
-        //        changeHeightTargetView.addSubview(label)
-        //        labelCount += 1
     }
     
     func insertViewToStackView() {
-        //        let view1 = UIView()
-        //        view1.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        //        view1.backgroundColor = UIColor.green
-        //
-        //        let view2 = UIView()
-        //        view2.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        //        view2.backgroundColor = UIColor.orange
-        //
-        //        baseStackView.insertArrangedSubview(view1, at: 2)
-        //        baseStackView.insertArrangedSubview(view2, at: 3)
-        
         
         let view1 = UIView()
         view1.backgroundColor = UIColor.green
