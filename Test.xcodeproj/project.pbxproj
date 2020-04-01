@@ -15,6 +15,8 @@
 		F5254AE22422934200EC2BC0 /* Simple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5254AE12422934200EC2BC0 /* Simple.storyboard */; };
 		F5254AE42422940A00EC2BC0 /* SimpleSecond.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5254AE32422940A00EC2BC0 /* SimpleSecond.storyboard */; };
 		F5254AE62422941800EC2BC0 /* SimpleSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5254AE52422941800EC2BC0 /* SimpleSecondViewController.swift */; };
+		F5BBD7D124324F52002E3324 /* ArticleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BBD7CF24324F52002E3324 /* ArticleView.xib */; };
+		F5BBD7D224324F52002E3324 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BBD7D024324F52002E3324 /* ArticleView.swift */; };
 		F5F468F923B86CD9005B9C65 /* BarcodeGenarator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F468F823B86CD9005B9C65 /* BarcodeGenarator.swift */; };
 		F5F8399D23B851E500B1195D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8399C23B851E500B1195D /* AppDelegate.swift */; };
 		F5F8399F23B851E500B1195D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8399E23B851E500B1195D /* ViewController.swift */; };
@@ -34,6 +36,8 @@
 		F5254AE12422934200EC2BC0 /* Simple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Simple.storyboard; sourceTree = "<group>"; };
 		F5254AE32422940A00EC2BC0 /* SimpleSecond.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleSecond.storyboard; sourceTree = "<group>"; };
 		F5254AE52422941800EC2BC0 /* SimpleSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSecondViewController.swift; sourceTree = "<group>"; };
+		F5BBD7CF24324F52002E3324 /* ArticleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleView.xib; sourceTree = "<group>"; };
+		F5BBD7D024324F52002E3324 /* ArticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		F5F468F823B86CD9005B9C65 /* BarcodeGenarator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeGenarator.swift; sourceTree = "<group>"; };
 		F5F8399923B851E500B1195D /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F8399C23B851E500B1195D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 			path = SimpleView;
 			sourceTree = "<group>";
 		};
+		F5BBD7D324325081002E3324 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F5BBD7CF24324F52002E3324 /* ArticleView.xib */,
+				F5BBD7D024324F52002E3324 /* ArticleView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		F5F468F723B86CAC005B9C65 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +123,7 @@
 				F5F839A323B851E700B1195D /* Assets.xcassets */,
 				F5F839A523B851E700B1195D /* LaunchScreen.storyboard */,
 				F5F839A823B851E700B1195D /* Info.plist */,
+				F5BBD7D324325081002E3324 /* CustomView */,
 				F5F839AE23B8525800B1195D /* Page */,
 				F5F468F723B86CAC005B9C65 /* Util */,
 			);
@@ -195,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BBD7D124324F52002E3324 /* ArticleView.xib in Resources */,
 				F5F839A723B851E700B1195D /* LaunchScreen.storyboard in Resources */,
 				F5F839B123B852EF00B1195D /* BarcodeGenerator.storyboard in Resources */,
 				F5254AE22422934200EC2BC0 /* Simple.storyboard in Resources */,
@@ -220,6 +235,7 @@
 				F5254AD5241E0F0700EC2BC0 /* ScrollContentViewController.swift in Sources */,
 				F5F8399F23B851E500B1195D /* ViewController.swift in Sources */,
 				F5254AE02422933700EC2BC0 /* SimpleViewController.swift in Sources */,
+				F5BBD7D224324F52002E3324 /* ArticleView.swift in Sources */,
 				F5F8399D23B851E500B1195D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
