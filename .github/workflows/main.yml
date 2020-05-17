@@ -9,22 +9,26 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    # Select Xcode version
+      
+    # Xcode バージョン設定
     - name: Select Xcode version
       run: sudo xcode-select -s '/Applications/Xcode_11.3.app/Contents/Developer'
+      
     - name: Show Xcode version
       run: xcodebuild -version
-      # Run build
+      
+      # ビルド実行
     - name: Build
       run: xcodebuild
-            -scheme Swift-github-actions
+            -scheme Test
             -sdk iphonesimulator
             -configuration Debug
             build
-      # Run unit test
+            
+      # テスト実行
     - name: Run tests
       run: xcodebuild
-            -scheme Swift-github-actions
+            -scheme Test
             -sdk iphonesimulator
             -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max'
             clean test
