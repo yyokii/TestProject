@@ -15,6 +15,7 @@
 		F5254AE22422934200EC2BC0 /* Simple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5254AE12422934200EC2BC0 /* Simple.storyboard */; };
 		F5254AE42422940A00EC2BC0 /* SimpleSecond.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5254AE32422940A00EC2BC0 /* SimpleSecond.storyboard */; };
 		F5254AE62422941800EC2BC0 /* SimpleSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5254AE52422941800EC2BC0 /* SimpleSecondViewController.swift */; };
+		F55D1490247106090025A504 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D148F247106090025A504 /* TestTests.swift */; };
 		F5BBD7D124324F52002E3324 /* ArticleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BBD7CF24324F52002E3324 /* ArticleView.xib */; };
 		F5BBD7D224324F52002E3324 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BBD7D024324F52002E3324 /* ArticleView.swift */; };
 		F5F468F923B86CD9005B9C65 /* BarcodeGenarator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F468F823B86CD9005B9C65 /* BarcodeGenarator.swift */; };
@@ -27,6 +28,16 @@
 		F5F839B323B8531F00B1195D /* BarcodeGeneratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F839B223B8531F00B1195D /* BarcodeGeneratorVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F55D1492247106090025A504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F8399123B851E500B1195D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F8399823B851E500B1195D;
+			remoteInfo = Test;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F5254AD4241E0F0700EC2BC0 /* ScrollContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollContentViewController.swift; sourceTree = "<group>"; };
 		F5254AD6241E0F1500EC2BC0 /* ScrollContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollContentViewController.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,9 @@
 		F5254AE12422934200EC2BC0 /* Simple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Simple.storyboard; sourceTree = "<group>"; };
 		F5254AE32422940A00EC2BC0 /* SimpleSecond.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleSecond.storyboard; sourceTree = "<group>"; };
 		F5254AE52422941800EC2BC0 /* SimpleSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSecondViewController.swift; sourceTree = "<group>"; };
+		F55D148D247106090025A504 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55D148F247106090025A504 /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
+		F55D1491247106090025A504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5BBD7CF24324F52002E3324 /* ArticleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleView.xib; sourceTree = "<group>"; };
 		F5BBD7D024324F52002E3324 /* ArticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		F5F468F823B86CD9005B9C65 /* BarcodeGenarator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeGenarator.swift; sourceTree = "<group>"; };
@@ -51,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F55D148A247106090025A504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5F8399623B851E500B1195D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,6 +104,15 @@
 			path = SimpleView;
 			sourceTree = "<group>";
 		};
+		F55D148E247106090025A504 /* TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55D148F247106090025A504 /* TestTests.swift */,
+				F55D1491247106090025A504 /* Info.plist */,
+			);
+			path = TestTests;
+			sourceTree = "<group>";
+		};
 		F5BBD7D324325081002E3324 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				F5F8399B23B851E500B1195D /* Test */,
+				F55D148E247106090025A504 /* TestTests */,
 				F5F8399A23B851E500B1195D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				F5F8399923B851E500B1195D /* Test.app */,
+				F55D148D247106090025A504 /* TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +186,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F55D148C247106090025A504 /* TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55D1496247106090025A504 /* Build configuration list for PBXNativeTarget "TestTests" */;
+			buildPhases = (
+				F55D1489247106090025A504 /* Sources */,
+				F55D148A247106090025A504 /* Frameworks */,
+				F55D148B247106090025A504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55D1493247106090025A504 /* PBXTargetDependency */,
+			);
+			name = TestTests;
+			productName = TestTests;
+			productReference = F55D148D247106090025A504 /* TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F5F8399823B851E500B1195D /* Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5F839AB23B851E700B1195D /* Build configuration list for PBXNativeTarget "Test" */;
@@ -177,10 +227,14 @@
 		F5F8399123B851E500B1195D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = yyokii;
 				TargetAttributes = {
+					F55D148C247106090025A504 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F5F8399823B851E500B1195D;
+					};
 					F5F8399823B851E500B1195D = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -200,11 +254,19 @@
 			projectRoot = "";
 			targets = (
 				F5F8399823B851E500B1195D /* Test */,
+				F55D148C247106090025A504 /* TestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F55D148B247106090025A504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5F8399723B851E500B1195D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +286,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F55D1489247106090025A504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55D1490247106090025A504 /* TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5F8399523B851E500B1195D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,6 +311,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55D1493247106090025A504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F8399823B851E500B1195D /* Test */;
+			targetProxy = F55D1492247106090025A504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F5F839A023B851E500B1195D /* Main.storyboard */ = {
@@ -262,6 +340,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F55D1494247106090025A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EAZT2D654U;
+				INFOPLIST_FILE = TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyokii.TestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+			};
+			name = Debug;
+		};
+		F55D1495247106090025A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EAZT2D654U;
+				INFOPLIST_FILE = TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yyokii.TestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+			};
+			name = Release;
+		};
 		F5F839A923B851E700B1195D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +537,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F55D1496247106090025A504 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55D1494247106090025A504 /* Debug */,
+				F55D1495247106090025A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F5F8399423B851E500B1195D /* Build configuration list for PBXProject "Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
