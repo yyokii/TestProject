@@ -19,16 +19,8 @@ jobs:
       
       # ビルド実行
     - name: Build
-      run: xcodebuild
-            -scheme Test
-            -sdk iphonesimulator
-            -configuration Debug
-            build
-            
+      run: make build-debug
+      
       # テスト実行
     - name: Run tests
-      run: xcodebuild
-            -scheme Test
-            -sdk iphonesimulator
-            -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max'
-            clean test
+      run: make test
